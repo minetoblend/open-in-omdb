@@ -5,7 +5,7 @@ const beatmapPathRegex = /\/beatmapsets\/(\d+)$/
 
 let runningApp: App | null = null
 
-export function tryInjectOmdbComponent(evt?: Event) {
+export function tryInjectOmdbComponent() {
     if (runningApp) {
         runningApp.unmount()
         runningApp = null

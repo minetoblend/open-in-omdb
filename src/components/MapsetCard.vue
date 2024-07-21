@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { computed, ref, reactive } from 'vue';
+import { computed, ref } from 'vue';
 import { loadOptions } from '../composables/useOptions';
 import BeatmapInfo from './BeatmapInfo.vue';
 import Options from '../Options.vue';
